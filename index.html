@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aponity App</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* App Box */
+.app-box {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.app-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.app-name {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Install Button */
+.install-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Info */
+.info {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+/* About Section */
+.about {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* Reviews */
+.review {
+    display: flex;
+    margin-top: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review-content {
+    margin-left: 10px;
+}
+
+.stars {
+    color: gold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    Aponity
+</div>
+
+<div class="container">
+
+    <!-- App Box -->
+    <div class="app-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="app-logo">
+        <div class="app-name">Aponity</div>
+
+        <button class="install-btn" onclick="window.location.href='https://example.com'">
+            Install Now
+        </button>
+
+        <div class="info">
+            1M+ Downloads • Updated 3 days ago <br>
+            Size: 25MB • Rated for 12+
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+        <h3>About this App</h3>
+        <p>
+            Aponity একটি সম্পূর্ণ বাংলাদেশী সোশ্যাল মিডিয়া প্ল্যাটফর্ম। 
+            এটি কোনো Facebook নয়, বরং Instagram, TikTok এবং Snapchat-এর মত 
+            একটি আধুনিক শর্ট ভিডিও ও রিলস প্ল্যাটফর্ম।
+        </p>
+
+        <p>
+            এখানে আপনি ভিডিও আপলোড করতে পারবেন, ফলো করতে পারবেন, 
+            লাইভ চ্যাট, ইনবক্স, রিলস, ট্রেন্ডিং কনটেন্ট এবং আরো অনেক প্রিমিয়াম ফিচার পাবেন।
+        </p>
+    </div>
+
+    <!-- Reviews -->
+    <div class="about">
+        <h3>User Reviews</h3>
+
+        <div class="review">
+            <img src="https://randomuser.me/api/portraits/men/1.jpg">
+            <div class="review-content">
+                <b>Rahim</b><br>
+                <span class="stars">★★★★★</span><br>
+                অসাধারণ অ্যাপ! অনেক স্মুথ এবং ফাস্ট।
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg">
+            <div class="review-content">
+                <b>Sumaiya</b><br>
+                <span class="stars">★★★★☆</span><br>
+                রিলস সিস্টেমটা অনেক ভালো লেগেছে।
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="https://randomuser.me/api/portraits/men/3.jpg">
+            <div class="review-content">
+                <b>Kamal</b><br>
+                <span class="stars">★★★★★</span><br>
+                বাংলাদেশের জন্য বেস্ট সোশ্যাল অ্যাপ।
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
